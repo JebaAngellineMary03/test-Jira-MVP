@@ -14,3 +14,4 @@ export default function SimpleButton() {
       <button onClick={handleClick}>Click Me</button>
     </div>
   );
+}
