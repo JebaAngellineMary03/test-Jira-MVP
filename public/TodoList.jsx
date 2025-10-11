@@ -3,7 +3,7 @@ import React, { useState } from "react";
 export default function TodoList() {
   const [todos, setTodos] = useState([]);
   const [input, setInput] = useState("");
-  console.log("h")
+  console.log("hii")
   const addTodo = () => {
     if (input.trim() !== "") {
       setTodos([...todos, input]);
