@@ -8,7 +8,7 @@ export default function TodoList() {
     if (input.trim() !== "") {
       setTodos([...todos, input]);
       setInput("");
-      console.log("Todo addffdjGJddd", input);
+      console.log("Todo addffjGJddd", input);
     }
   };
 
